@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM janeczku/alpine-kubernetes:3.3
 
 # Here we use several hacks collected from https://github.com/gliderlabs/docker-alpine/issues/11:
 # 1. install GLibc (which is not the cleanest solution at all)
